@@ -11,7 +11,7 @@ For licenses we use, see https://github.com/CMihai99/medita/tree/main/LICENSES.
 
 [![GitHub issues](https://img.shields.io/github/issues/CMihai99/medita)](https://github.com/CMihai99/medita/issues?q=is%3Aissue+is%3Aopen)
 [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/medita)](https://github.com/CMihai99/medita/issues?q=is%3Aissue+is%3Aclosed)
-[![Codacy](https://img.shields.io/codacy/grade/61f1f6165b2f42d1a7c52f3790a1de47)](https://app.codacy.com/gh/CMihai99/medita/dashboard)
+[![Codacy](https://img.shields.io/codacy/grade/ca7755da8b6d4cfea5e5a6a69c6a8fc4)](https://app.codacy.com/gh/CMihai99/medita/dashboard)
 
 ## Bugs and Features
 
