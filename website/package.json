@@ -1,0 +1,18 @@
+{
+  "name": "@cmihai99/medita",
+  "version": "1.0.0",
+  "description": "",
+  "author": {
+    "name": "Medita"
+  },
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CMihai99/medita.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CMihai99/medita/issues"
+  },
+  "homepage": "https://github.com/CMihai99/medita"
+}
