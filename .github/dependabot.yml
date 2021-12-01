@@ -1,0 +1,33 @@
+# Please see the documentation for all configuration options:
+# https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+updates:
+  # Enable version updates for npm
+  - package-ecosystem: "npm"
+
+    # Look for dependency files in the root directory
+    directory: "/"
+
+    # Check the pip registry for updates
+    schedule:
+      interval: "daily"
+
+    # Reviewers to set on update pull requests
+    reviewers:
+      - "CMihai99"
+
+    # Assignees to set on update pull requests
+    assignees:
+      - "CMihai99"
+
+    # Labels to set on update pull requests
+    labels:
+      - "dependencies"
+      - "dependabot"
+
+    # Specify how Dependabot should update your package manifest
+    version_requirement_updates: "increase_versions_if_necessary"
+
+    # Allow up to 5 open pull requests for dependencies
+    open-pull-requests-limit: 5
