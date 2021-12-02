@@ -84,6 +84,148 @@ HSL Value: `hsl(34°, 83%, 71%)`
 
 CMYK Value: `cmyk(0%, 0.219%, 0.512%, 0.050%)`
 
+## Grayscale palette
+
+### White
+
+![White](https://user-images.githubusercontent.com/69072635/144498185-3b739e7e-a8dd-4e44-a227-2d64ec110eaf.png)
+
+SASS Variable: `--white`
+
+Hex Value: `#FFFFFF`
+
+RGB Value: `rgb(255, 255, 255)`
+
+HSL Value: `hsl(0°, 0%, 100%)`
+
+CMYK Value: `cmyk(0%, 0%, 0%, 0%)`
+
+### Platinum
+
+![Platinum](https://user-images.githubusercontent.com/69072635/144498203-d4739e8b-ee9e-4694-b962-c18e8eae7103.png)
+
+SASS Variable: `--platinum`
+
+Hex Value: `#E6E6E6`
+
+RGB Value: `rgb(230, 230, 230)`
+
+HSL Value: `hsl(0°, 0%, 90%)`
+
+CMYK Value: `cmyk(0%, 0%, 0%, 0.098%)`
+
+### Silver
+
+![Silver](https://user-images.githubusercontent.com/69072635/144498229-558f7d90-3b49-4e57-bdf9-21a020fedd7f.png)
+
+SASS Variable: `--silver`
+
+Hex Value: `#CCCCCC`
+
+RGB Value: `rgb(204, 204, 204)`
+
+HSL Value: `hsl(0°, 0%, 80%)`
+
+CMYK Value: `cmyk(0%, 0%, 0%, 0.2%)`
+
+### Dark Silver
+
+![Dark Silver](https://user-images.githubusercontent.com/69072635/144498239-229f2d1f-f428-4011-aa8c-2f09db82957f.png)
+
+SASS Variable: `--dark-silver`
+
+Hex Value: `#B3B3B3`
+
+RGB Value: `rgb(179, 179, 179)`
+
+HSL Value: `hsl(0°, 0%, 70%)`
+
+CMYK Value: `cmyk(0%, 0%, 0%, 0.298%)`
+
+### Gray
+
+![Gray](https://user-images.githubusercontent.com/69072635/144498250-1799a424-3713-44c6-922a-f0977a695f3a.png)
+
+SASS Variable: `--gray`
+
+Hex Value: `#999999`
+
+RGB Value: `rgb(153, 153, 153)`
+
+HSL Value: `hsl(0°, 0%, 60%)`
+
+CMYK Value: `cmyk(0%, 0%, 0%, 0.4%)`
+
+### Dark Gray
+
+![Dark Gray](https://user-images.githubusercontent.com/69072635/144498262-616b4f13-6bee-4306-96e8-9c277452260f.png)
+
+SASS Variable: `--dark-gray`
+
+Hex Value: `#808080`
+
+RGB Value: `rgb(128, 128, 128)`
+
+HSL Value: `hsl(0°, 0%, 50%)`
+
+CMYK Value: `cmyk(0%, 0%, 0%, 0.498%)`
+
+### Granite
+
+![Granite](https://user-images.githubusercontent.com/69072635/144498272-68ebda12-22d7-4910-bf0b-8c8f2ac6ff0c.png)
+
+SASS Variable: `--granite`
+
+Hex Value: `#666666`
+
+RGB Value: `rgb(102, 6, 0)`
+
+HSL Value: `hsl(0°, 0%, 40%)`
+
+CMYK Value: `cmyk(0%, 0.941%, 1%, 0.6%)`
+
+### Charcoal
+
+![Charcoal](https://user-images.githubusercontent.com/69072635/144498294-a2189a18-323a-4794-ad85-c3dcafc1d26e.png)
+
+SASS Variable: `--charcoal`
+
+Hex Value: `#4D4D4D`
+
+RGB Value: `rgb(77, 77, 77)`
+
+HSL Value: `hsl(0°, 0%, 30%)`
+
+CMYK Value: `cmyk(0%, 0%, 0%, 0.698%)`
+
+### Dark Charcoal
+
+![Dark Charcoal](https://user-images.githubusercontent.com/69072635/144498303-db19c17b-4230-43dc-aff3-5c871ed06036.png)
+
+SASS Variable: `--dark-charcoal`
+
+Hex Value: `#333333`
+
+RGB Value: `rgb(51, 51, 51)`
+
+HSL Value: `hsl(0°, 0%, 20%)`
+
+CMYK Value: `cmyk(0%, 0%, 0%, 0.8%)`
+
+### Eerie Black
+
+![Eerie Black](https://user-images.githubusercontent.com/69072635/144498320-54b50a63-d98b-4622-a8fb-b635dfb82165.png)
+
+SASS Variable: `--eerie-black`
+
+Hex Value: `#1A1A1A`
+
+RGB Value: `rgb(26, 26, 26)`
+
+HSL Value: `hsl(0°, 0%, 10%)`
+
+CMYK Value: `cmyk(0%, 0%, 0%, 0.898%)`
+
 ## Alert palette
 
 ### Warning
