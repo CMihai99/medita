@@ -24,10 +24,13 @@ class footer extends HTMLElement {
 
         <ul>
           <li>
-            <a href="/website/html/invite.html" title="Add to server" target="_blank">Add to server</a>
+            <a href="/website/html/status.html" title="Status">Status</a>
           </li>
           <li>
-            <a href="/website/html/commands/index.html" title="Commands">Commands</a>
+            <a href="/website/html/contact.html" title="Contact">Contact</a>
+          </li>
+          <li>
+            <a href="/website/html/about.html" title="About">About</a>
           </li>
         </ul>
       </div>
@@ -37,7 +40,7 @@ class footer extends HTMLElement {
 
         <ul>
           <li>
-            <a href="/website/html/resources/contact.html" title="Contact">Contact</a>
+          <a href="/website/html/commands/index.html" title="Commands">Commands</a>
           </li>
           <li>
             <a href="/website/html/resources/docs.html" title="Documentation">Documentation</a>
@@ -50,10 +53,13 @@ class footer extends HTMLElement {
 
         <ul>
           <li>
-            <a href="/website/html/legal/tos.html" title="Terms of Service">Terms of Service</a>
+            <a href="/website/html/legal/security.html" title="Security">Security</a>
           </li>
           <li>
             <a href="/website/html/legal/privacy.html" title="Privacy Policy">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="/website/html/legal/terms.html" title="Terms of Service">Terms of Service</a>
           </li>
         </ul>
       </div>
