@@ -84,6 +84,218 @@ HSL Value: `hsl(34°, 83%, 71%)`
 
 CMYK Value: `cmyk(0%, 0.219%, 0.512%, 0.050%)`
 
+## Secondary palette
+
+### Cinereous
+
+![Cinereous](https://user-images.githubusercontent.com/69072635/144504788-d823e5ba-15a9-4e15-ab03-278155316f6f.png)
+
+SASS Variable: `--cinereous`
+
+Hex Value: `#A18482`
+
+RGB Value: `rgb(161, 132, 130)`
+
+HSL Value: `hsl(4°, 14%, 57%)`
+
+CMYK Value: `cmyk(0%, 0.180%, 0.192%, 0.368%)`
+
+### Quincy
+
+![Quincy](https://user-images.githubusercontent.com/69072635/144504798-c951339f-c60a-46d9-8c2b-e8841058a5b9.png)
+
+SASS Variable: `--quincy`
+
+Hex Value: `#6F514F`
+
+RGB Value: `rgb(110, 80, 78)`
+
+HSL Value: `hsl(4°, 17%, 37%)`
+
+CMYK Value: `cmyk(0%, 0.270%, 0.288%, 0.564%)`
+
+### Temptress
+
+![Temptress](https://user-images.githubusercontent.com/69072635/144504802-1865e8c1-09d3-415c-a2e1-b244e09f3c11.png)
+
+SASS Variable: `--temptress`
+
+Hex Value: `#3B1E1C`
+
+RGB Value: `rgb(59, 30, 28)`
+
+HSL Value: `hsl(4°, 36%, 17%)`
+
+CMYK Value: `cmyk(0%, 0.491%, 0.525%, 0.768%)`
+
+### Tumbleweed
+
+![Tumbleweed](https://user-images.githubusercontent.com/69072635/144504812-03e096d1-5142-4ad1-bd84-9e446467b29b.png)
+
+SASS Variable: `--tumbleweed`
+
+Hex Value: `#ECAA8A`
+
+RGB Value: `rgb(236, 170, 137)`
+
+HSL Value: `hsl(20°, 72%, 73%)`
+
+CMYK Value: `cmyk(0%, 0.279%, 0.415%, 0.074%)`
+
+### Deer
+
+![Deer](https://user-images.githubusercontent.com/69072635/144504820-454f68a9-fbd9-4a3a-b37a-bc7fd85105e4.png)
+
+SASS Variable: `--deer`
+
+Hex Value: `#BA7857`
+
+RGB Value: `rgb(187, 121, 88)`
+
+HSL Value: `hsl(20°, 42%, 54%)`
+
+CMYK Value: `cmyk(0%, 0.354%, 0.532%, 0.270%)`
+
+### Russet
+
+![Russet](https://user-images.githubusercontent.com/69072635/144504827-5c1cb457-bc2f-4dd0-94a2-e4478f28a2e3.png)
+
+SASS Variable: `--russet`
+
+Hex Value: `#864424`
+
+RGB Value: `rgb(133, 68, 35)`
+
+HSL Value: `hsl(20°, 58%, 33%)`
+
+CMYK Value: `cmyk(0%, 0.492%, 0.731%, 0.474%)`
+
+### Deep Amethyst
+
+![Deep Amethyst](https://user-images.githubusercontent.com/69072635/144504839-801b264e-89ea-41d1-a379-a38e914a1d94.png)
+
+SASS Variable: `--deep-amethyst`
+
+Hex Value: `#968E9D`
+
+RGB Value: `rgb(151, 143, 158)`
+
+HSL Value: `hsl(272°, 7%, 59%)`
+
+CMYK Value: `cmyk(0.044%, 0.095%, 0%, 0.384%)`
+
+### Aubergine
+
+![Aubergine](https://user-images.githubusercontent.com/69072635/144504847-982dfa46-2643-4e94-a880-0c31b878aa35.png)
+
+SASS Variable: `--aubergine`
+
+Hex Value: `#635B6A`
+
+RGB Value: `rgb(100, 91, 107)`
+
+HSL Value: `hsl(272°, 8%, 39%)`
+
+CMYK Value: `cmyk(0.066%, 0.141%, 0%, 0.584%)`
+
+### Ripe Aubergine
+
+![Ripe Aubergine](https://user-images.githubusercontent.com/69072635/144504853-28a5629d-89df-47ab-aa9d-10d861bdf77c.png)
+
+SASS Variable: `--ripe-aubergine`
+
+Hex Value: `#302837`
+
+RGB Value: `rgb(49, 41, 56)`
+
+HSL Value: `hsl(272°, 16%, 19%)`
+
+CMYK Value: `cmyk(0.127%, 0.272%, 0%, 0.784%)`
+
+### Light Coral
+
+![Light Coral](https://user-images.githubusercontent.com/69072635/144504862-30b19797-f5d5-438a-8787-8e9d84c53ddd.png)
+
+SASS Variable: `--light-coral`
+
+Hex Value: `#E58983`
+
+RGB Value: `rgb(229, 139, 133)`
+
+HSL Value: `hsl(4°, 65%, 71%)`
+
+CMYK Value: `cmyk(0%, 0.401%, 0.427%, 0.101%)`
+
+### Dark Rose
+
+![Dark Rose](https://user-images.githubusercontent.com/69072635/144504871-f85a609a-2cd2-4de5-8445-ab883914b57b.png)
+
+SASS Variable: `--dark-rose`
+
+Hex Value: `#B25750`
+
+RGB Value: `rgb(179, 88, 81)`
+
+HSL Value: `hsl(4°, 39%, 51%)`
+
+CMYK Value: `cmyk(0%, 0.511%, 0.550%, 0.301%)`
+
+### Falu Red
+
+![Falu Red](https://user-images.githubusercontent.com/69072635/144504879-38ab1642-ef36-4365-88d9-f499c4232789.png)
+
+SASS Variable: `--falu-red`
+
+Hex Value: `#7F231D`
+
+RGB Value: `rgb(129, 36, 29)`
+
+HSL Value: `hsl(4°, 63%, 31%)`
+
+CMYK Value: `cmyk(0%, 0.724%, 0.771%, 0.501%)`
+
+### Feldspar
+
+![Feldspar](https://user-images.githubusercontent.com/69072635/144504884-1a376c46-09fa-4d0e-ad41-f218daeb7c80.png)
+
+SASS Variable: `--feldspar`
+
+Hex Value: `#F7D7AD`
+
+RGB Value: `rgb(247, 214, 171)`
+
+HSL Value: `hsl(34°, 82%, 82%)`
+
+CMYK Value: `cmyk(0%, 0.129%, 0.299%, 0.031%)`
+
+### Beige
+
+![Beige](https://user-images.githubusercontent.com/69072635/144504892-a630c4dd-dd81-4041-98a0-72d5b877b29a.png)
+
+SASS Variable: `--beige`
+
+Hex Value: `#C4A57A`
+
+RGB Value: `rgb(196, 164, 120)`
+
+HSL Value: `hsl(35°, 39%, 62%)`
+
+CMYK Value: `cmyk(0%, 0.158%, 0.377%, 0.231%)`
+
+### Bistre
+
+![Bistre](https://user-images.githubusercontent.com/69072635/144504912-1a84cc72-c2a8-48d5-94ed-bc633c9117d2.png)
+
+SASS Variable: `--bistre`
+
+Hex Value: `#917147`
+
+RGB Value: `rgb(144, 112, 71)`
+
+HSL Value: `hsl(34°, 34%, 42%)`
+
+CMYK Value: `cmyk(0%, 0.220%, 0.510%, 0.431%)`
+
 ## Grayscale palette
 
 ### White
@@ -92,7 +304,7 @@ CMYK Value: `cmyk(0%, 0.219%, 0.512%, 0.050%)`
 
 SASS Variable: `--white`
 
-Hex Value: `#FFFFFF`
+Hex Value: `#FFF`
 
 RGB Value: `rgb(255, 255, 255)`
 
@@ -120,7 +332,7 @@ CMYK Value: `cmyk(0%, 0%, 0%, 0.098%)`
 
 SASS Variable: `--silver`
 
-Hex Value: `#CCCCCC`
+Hex Value: `#CCC`
 
 RGB Value: `rgb(204, 204, 204)`
 
@@ -148,7 +360,7 @@ CMYK Value: `cmyk(0%, 0%, 0%, 0.298%)`
 
 SASS Variable: `--gray`
 
-Hex Value: `#999999`
+Hex Value: `#999`
 
 RGB Value: `rgb(153, 153, 153)`
 
@@ -176,7 +388,7 @@ CMYK Value: `cmyk(0%, 0%, 0%, 0.498%)`
 
 SASS Variable: `--granite`
 
-Hex Value: `#666666`
+Hex Value: `#666`
 
 RGB Value: `rgb(102, 6, 0)`
 
@@ -204,7 +416,7 @@ CMYK Value: `cmyk(0%, 0%, 0%, 0.698%)`
 
 SASS Variable: `--dark-charcoal`
 
-Hex Value: `#333333`
+Hex Value: `#333`
 
 RGB Value: `rgb(51, 51, 51)`
 
@@ -272,4 +484,4 @@ CMYK Value: `cmyk(0.779%, 0%, 0.450%, 0.2%)`
 
 ## Licensing
 
-The color scheme is available through [SchemeColor](https://www.schemecolor.com/give-in-to-anger.php).
+The color scheme is available at [SchemeColor](https://www.schemecolor.com/give-in-to-anger.php).
