@@ -16,7 +16,6 @@ class footer extends HTMLElement {
         <h2>Medita</h2>
         <p>Description</p>
         <p>© 2021 <a href="/website/html/trademark.html" title="Medita Limited">Medita Limited</a></p>
-        <p>by Calinescu Mihai</p>
       </div>
 
       <div class="section">
