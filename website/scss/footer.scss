@@ -25,30 +25,30 @@ footer {
 .title-section {
   padding: 0 15px; // top-bottom, left-right
   width: 175px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 
   h3 {
     font-size: 16px;
     margin-bottom: 8px;
     margin-top: 5px;
-    font-family: Verdana, sans-serif;
   }
 
   h2 {
     margin-top: 10px;
     margin-bottom: 5px;
-    font-family: Verdana, sans-serif;
   }
 
   p {
     font-size: 15px;
     margin: 0;
-    font-family: Verdana, sans-serif;
 
     a {
       color: var(--light-gray);
       text-decoration: none;
       transition: color 0.2s;
       padding: 2px;
+      margin-left: -2px;
     }
   }
 
@@ -65,6 +65,7 @@ footer {
         font-size: 14px;
         transition: color 0.2s;
         padding: 2px;
+        margin-left: -2px;
 
         &:hover,
         &:focus {

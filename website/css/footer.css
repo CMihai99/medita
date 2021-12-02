@@ -18,25 +18,24 @@ footer {
 .title-section {
   padding: 0 15px;
   width: 175px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 .section h3,
 .title-section h3 {
   font-size: 16px;
   margin-bottom: 8px;
   margin-top: 5px;
-  font-family: Verdana, sans-serif;
 }
 .section h2,
 .title-section h2 {
   margin-top: 10px;
   margin-bottom: 5px;
-  font-family: Verdana, sans-serif;
 }
 .section p,
 .title-section p {
   font-size: 15px;
   margin: 0;
-  font-family: Verdana, sans-serif;
 }
 .section p a,
 .title-section p a {
@@ -44,6 +43,7 @@ footer {
   text-decoration: none;
   transition: color 0.2s;
   padding: 2px;
+  margin-left: -2px;
 }
 .section ul,
 .title-section ul {
@@ -61,6 +61,7 @@ footer {
   font-size: 14px;
   transition: color 0.2s;
   padding: 2px;
+  margin-left: -2px;
 }
 .section ul li a:hover, .section ul li a:focus,
 .title-section ul li a:hover,
