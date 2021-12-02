@@ -6,13 +6,50 @@
 // ===-----------------------------------------------------------------------------------===
 
 :root {
-  --text: #fafafa;
-  --light-gray: #c5c5c5;
-  --gray: #aaaaaa;
+  // color palette - primary
+  --puce-red: #63322F;
+  --medium-vermilion: #E0723C;
+  --english-violet: #50435C;
+  --persian-red: #D43B30;
+  --mellow-apricot: #F2BD76;
+
+  // color palette - secondary
+  --cinereous: #A18482;
+  --quincy: #6F514F;
+  --temptress: #3B1E1C;
+  --tumbleweed: #ECAA8A;
+  --deer: #BA7857;
+  --russet: #864424;
+  --deep-amethyst: #968E9D;
+  --aubergine: #635B6A;
+  --ripe-aubergine: #302837;
+  --light-coral: #E58983;
+  --dark-rose: #B25750;
+  --falu-red: #7F231D;
+  --feldspar: #F7D7AD;
+  --beige: #C4A57A;
+  --bistre: #917147;
+
+  // color palette - grayscale
+  --white: #FFFFFF;
+  --platinum: #E6E6E6;
+  --silver: #CCCCCC;
+  --dark-silver: #B3B3B3;
+  --gray: #999999;
+  --dark-gray: #808080;
+  --granite: #666666;
+  --charcoal: #4D4D4D;
+  --dark-charcoal: #333333;
+  --eerie-black: #1A1A1A;
+
+  // color palette - alert
+  --warning: #F1C40F;
+  --danger: #FF6A5C;
+  --success: #2DCC70;
 }
 
 footer {
-  background-color: #232629;
+  background-color: var(--);
   display: flex;
   padding: 30px;
   height: 200px;
@@ -44,7 +81,7 @@ footer {
     margin: 0;
 
     a {
-      color: var(--light-gray);
+      color: var(--);
       text-decoration: none;
       transition: color 0.2s;
       padding: 2px;
@@ -57,10 +94,10 @@ footer {
 
     li {
       list-style-type: none;
-      color: var(--text);
+      color: var(--);
 
       a {
-        color: var(--light-gray);
+        color: var(--);
         text-decoration: none;
         font-size: 14px;
         transition: color 0.2s;
@@ -69,7 +106,7 @@ footer {
 
         &:hover,
         &:focus {
-          color: var(--gray);
+          color: var(--);
         }
       }
     }

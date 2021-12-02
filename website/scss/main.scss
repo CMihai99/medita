@@ -6,16 +6,53 @@
 // ===-----------------------------------------------------------------------------------===
 
 :root {
-  --divider: #dbdbdb;
-  --text: #fafafa;
-  --dark-gray: #959595; 
+  // color palette - primary
+  --puce-red: #63322F;
+  --medium-vermilion: #E0723C;
+  --english-violet: #50435C;
+  --persian-red: #D43B30;
+  --mellow-apricot: #F2BD76;
+
+  // color palette - secondary
+  --cinereous: #A18482;
+  --quincy: #6F514F;
+  --temptress: #3B1E1C;
+  --tumbleweed: #ECAA8A;
+  --deer: #BA7857;
+  --russet: #864424;
+  --deep-amethyst: #968E9D;
+  --aubergine: #635B6A;
+  --ripe-aubergine: #302837;
+  --light-coral: #E58983;
+  --dark-rose: #B25750;
+  --falu-red: #7F231D;
+  --feldspar: #F7D7AD;
+  --beige: #C4A57A;
+  --bistre: #917147;
+
+  // color palette - grayscale
+  --white: #FFFFFF;
+  --platinum: #E6E6E6;
+  --silver: #CCCCCC;
+  --dark-silver: #B3B3B3;
+  --gray: #999999;
+  --dark-gray: #808080;
+  --granite: #666666;
+  --charcoal: #4D4D4D;
+  --dark-charcoal: #333333;
+  --eerie-black: #1A1A1A;
+
+  // color palette - alert
+  --warning: #F1C40F;
+  --danger: #FF6A5C;
+  --success: #2DCC70;
 
   box-sizing: border-box;
 }
 
 body {
-  background-color: #2c2f33;
-  color: var(--text);
+  background-color: var(--);
+  color: var(--);
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   overflow-x: hidden;
@@ -29,18 +66,18 @@ body {
 .categories {
   width: 350px;
   padding: 15px;
-  background-color: #232629;
+  background-color: var(--);
   border-radius: 5px;
   box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
 
    a {
-    color: var(--dark-gray);
+    color: var(--);
     text-decoration: none;
     transition: color 0.2s;
 
     &:hover,
     &:focus {
-      color: var(--text);
+      color: var(--);
     }
    }
 }
@@ -53,12 +90,12 @@ body {
   width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
-  border-bottom: 2px solid var(--text);
+  border-bottom: 2px solid var(--);
   border-radius: 3px;
 }
 
 .category-active {
-  background-color: #3a3e41;
+  background-color: var(--);
   padding: 5px;
   margin-bottom: 5px;
   border-radius: 5px;
@@ -74,7 +111,7 @@ body {
 
   &:hover,
   &:focus {
-    background-color: #3a3e41;
+    background-color: var(--);
   }
 }
 

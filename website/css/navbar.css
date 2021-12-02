@@ -1,10 +1,41 @@
 :root {
-  --light-gray: #cccccc;
-  --gray: #aaaaaa;
+  --puce-red: #63322F;
+  --medium-vermilion: #E0723C;
+  --english-violet: #50435C;
+  --persian-red: #D43B30;
+  --mellow-apricot: #F2BD76;
+  --cinereous: #A18482;
+  --quincy: #6F514F;
+  --temptress: #3B1E1C;
+  --tumbleweed: #ECAA8A;
+  --deer: #BA7857;
+  --russet: #864424;
+  --deep-amethyst: #968E9D;
+  --aubergine: #635B6A;
+  --ripe-aubergine: #302837;
+  --light-coral: #E58983;
+  --dark-rose: #B25750;
+  --falu-red: #7F231D;
+  --feldspar: #F7D7AD;
+  --beige: #C4A57A;
+  --bistre: #917147;
+  --white: #FFFFFF;
+  --platinum: #E6E6E6;
+  --silver: #CCCCCC;
+  --dark-silver: #B3B3B3;
+  --gray: #999999;
+  --dark-gray: #808080;
+  --granite: #666666;
+  --charcoal: #4D4D4D;
+  --dark-charcoal: #333333;
+  --eerie-black: #1A1A1A;
+  --warning: #F1C40F;
+  --danger: #FF6A5C;
+  --success: #2DCC70;
 }
 
 nav.navbar {
-  background-color: #2c2f33;
+  background-color: var(--);
   height: 100px;
   width: 100%;
   border: 0;
@@ -22,7 +53,7 @@ nav.navbar {
   margin: 13px 0 0 40px;
 }
 .nav-item a {
-  color: var(--gray);
+  color: var(--);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 17px;
@@ -31,7 +62,7 @@ nav.navbar {
   padding: 10px;
 }
 .nav-item a:hover, .nav-item a:focus {
-  color: var(--light-gray);
+  color: var(--);
 }
 .nav-item a img {
   filter: invert(62%) sepia(44%) saturate(0%) hue-rotate(146deg) brightness(102%) contrast(84%);
