@@ -9,14 +9,14 @@ For licenses we use, see https://github.com/CMihai99/medita/tree/main/LICENSES.
 
 # Security bugs
 
-Eureka developers take security very seriously. As such, we'd like to know when a
+Medita developers take security very seriously. As such, we'd like to know when a
 security bug is found so that it can be fixed and disclosed as quickly as possible.
 Please report security bugs to the security team.
 
 ## Contact
 
 As it is with any bug, the more information provided the easier it will be to
-diagnose and fix. Please review the procedure outlined in [ReportingIssues.md](https://github.com/CMihai99/eureka/blob/main/docs/how-to/ReportingIssues.md)
+diagnose and fix. Please review the procedure outlined in [ReportingIssues.md](https://github.com/CMihai99/medita/blob/main/docs/how-to/ReportingIssues.md)
 if you are unclear about what information is helpful. Any exploit code is very
 helpful and will not be released without consent from the reporter unless
 it has already been made public.
