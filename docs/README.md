@@ -42,7 +42,7 @@ The documentation for Medita is divided into the following sections:
     for Windows, and get an edit-build-test-debug loop going.
 
 -   [ReportingIssues.md](https://github.com/CMihai99/medita/blob/main/docs/how-to/ReportingIssues.md)
-    describes how to report issues to Eureka developers.
+    describes how to report issues to Medita developers.
 
 -   [SecurityBugs.md](https://github.com/CMihai99/medita/blob/main/docs/how-to/SecurityBugs.md)
     describes how to report security bugs so that it
@@ -52,7 +52,7 @@ The documentation for Medita is divided into the following sections:
 
     -   [Changelog.md](https://github.com/CMihai99/medita/blob/main/docs/how-to/building/Changelog.md)
         is a list of all the releases that Medita has gone through.
-        Each stable Eureka release comes out evey 6 months.
+        Each stable Medita release comes out evey 6 months.
 
     -   [Refactoring.md](https://github.com/CMihai99/medita/blob/main/docs/how-to/building/Refactoring.md)
         describes how refactorings work and how they can be tested
@@ -60,16 +60,16 @@ The documentation for Medita is divided into the following sections:
     -   Windows:
 
         -   [Windows.md](https://github.com/CMihai99/medita/blob/main/docs/how-to/building/Windows.md)
-            is an overview on how to build Eureka for Windows.
+            is an overview on how to build Medita for Windows.
 
         -   [WindowsCrossBuild.md](https://github.com/CMihai99/medita/blob/main/docs/how-to/building/WindowsCrossCBuild.md)
-            describes how to cross build Eureka for Windows
+            describes how to cross build Medita for Windows
             on a non-Windows host OS.
 
     -   macOS:
 
         -   [macOS.md](https://github.com/CMihai99/medita/blob/main/docs/how-to/building/macOS.md)
-            is an overview on how to build Eureka for macOS.
+            is an overview on how to build Medita for macOS.
 
 -   Design:
 
@@ -123,7 +123,7 @@ The documentation for Medita is divided into the following sections:
 ## Recommended Practices
 
 -   [ErrorHandling.md](https://github.com/CMihai99/medita/blob/main/docs/practices/ErrorHandling.md)
-    describes how to handle errors and spelling mistakes throughout Eureka.
+    describes how to handle errors and spelling mistakes throughout Medita.
 
 -   [OptimizationTips.md](https://github.com/CMihai99/medita/blob/main/docs/practices/OptimizationTips.md)
     provides guidelines for writing high-performance code.
