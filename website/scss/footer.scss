@@ -1,0 +1,92 @@
+// ===-----------------------------------------------------------------------------------===
+// Copyright (c) 2021 Calinescu Mihai, Bencu Bogdan
+//
+// For copying notice, see https://github.com/CMihai99/medita/blob/main/COPYING.
+// For licenses we use, see https://github.com/CMihai99/medita/tree/main/LICENSES.
+// ===-----------------------------------------------------------------------------------===
+
+:root {
+  --text: #fafafa;
+  --light-gray: #c5c5c5;
+  --gray: #aaaaaa;
+}
+
+footer {
+  background-color: #232629;
+  display: flex;
+  padding: 30px;
+  height: 200px;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.section,
+.title-section {
+  padding: 0 15px; // top-bottom, left-right
+  width: 175px;
+
+  h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    font-family: Verdana, sans-serif;
+  }
+
+  h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: Verdana, sans-serif;
+  }
+
+  p {
+    font-size: 15px;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+
+    a {
+      color: var(--light-gray);
+      text-decoration: none;
+      transition: color 0.2s;
+      padding: 2px;
+    }
+  }
+
+  ul {
+    padding: 0;
+
+    li {
+      list-style-type: none;
+      color: var(--text);
+
+      a {
+        color: var(--light-gray);
+        text-decoration: none;
+        font-size: 14px;
+        transition: color 0.2s;
+        padding: 2px;
+
+        &:hover,
+        &:focus {
+          color: var(--gray);
+        }
+      }
+    }
+  }
+}
+
+.title-section {
+  width: 750px;
+  padding-left: 150px;
+  padding-right: 125px;
+}
+
+// Phones
+@media (min-width: 320px) and (max-width: 480px), (min-width: 481px) and (max-width: 767px) {
+  /* foo */
+}
+
+// Tablets
+@media (min-width: 768px) and (max-width: 1024px), (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* foo */
+}

@@ -1,0 +1,84 @@
+:root {
+  --text: #fafafa;
+  --light-gray: #c5c5c5;
+  --gray: #aaaaaa;
+}
+
+footer {
+  background-color: #232629;
+  display: flex;
+  padding: 30px;
+  height: 200px;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.section,
+.title-section {
+  padding: 0 15px;
+  width: 175px;
+}
+.section h3,
+.title-section h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  margin-top: 5px;
+  font-family: Verdana, sans-serif;
+}
+.section h2,
+.title-section h2 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: Verdana, sans-serif;
+}
+.section p,
+.title-section p {
+  font-size: 15px;
+  margin: 0;
+  font-family: Verdana, sans-serif;
+}
+.section p a,
+.title-section p a {
+  color: var(--light-gray);
+  text-decoration: none;
+  transition: color 0.2s;
+  padding: 2px;
+}
+.section ul,
+.title-section ul {
+  padding: 0;
+}
+.section ul li,
+.title-section ul li {
+  list-style-type: none;
+  color: var(--text);
+}
+.section ul li a,
+.title-section ul li a {
+  color: var(--light-gray);
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s;
+  padding: 2px;
+}
+.section ul li a:hover, .section ul li a:focus,
+.title-section ul li a:hover,
+.title-section ul li a:focus {
+  color: var(--gray);
+}
+
+.title-section {
+  width: 750px;
+  padding-left: 150px;
+  padding-right: 125px;
+}
+
+@media (min-width: 320px) and (max-width: 480px), (min-width: 481px) and (max-width: 767px) {
+  /* foo */
+}
+@media (min-width: 768px) and (max-width: 1024px), (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* foo */
+}
+
+/*# sourceMappingURL=footer.css.map */
