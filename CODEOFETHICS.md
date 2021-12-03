@@ -46,8 +46,7 @@ understanding. You must respect others' personal space, opinions and privacy.
 
 Any kind of violence is strictly prohibited and will result in immediate
 termination. You're also not allowed to harass or victimize others. What
-constitutes harassment or victimization? To answer this, see our [Harassment Policy](https://github.com/CMihai99/medita/blob/main/docs/Harassment.md)
-and our [Sexual Harassment Policy](https://github.com/CMihai99/medita/blob/main/docs/SexualHarassment.md).
+constitutes harassment or victimization? To answer this, see our [Harassment Policy](https://github.com/CMihai99/medita/blob/main/docs/Harassment.md).
 
 As a general rule, try to put yourself in someone else's place. How would you
 feel if someone behaved a specific way to you? If the answer is "I wouldn't like
