@@ -52,8 +52,7 @@ nav.navbar {
   // background-color: var(--mellow-apricot);
   // background-color: var(--persian-red);
   // background-color: var(--english-violet);
-  // background-color: var(--medium-vermilion);
-  // background-color: var(--puce-red);
+  background-color: var(--medium-vermilion); // Medium Vermilion color palette
   height: 100px;
   width: 100%;
   border: 0;
@@ -71,7 +70,7 @@ nav.navbar {
   margin: 13px 0 0 40px; // top, right, bottom, left
 
   a {
-    color: var(--aubergine);
+    color: var(--charcoal);
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 17px;
@@ -81,7 +80,7 @@ nav.navbar {
 
     &:hover,
     &:focus {
-      color: var(--ripe-aubergine);
+      color: var(--dark-charcoal);
     }
 
     img {

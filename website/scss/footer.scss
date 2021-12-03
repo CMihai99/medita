@@ -52,7 +52,7 @@ footer {
   // background-color: var(--beige);
   // background-color: var(--dark-rose);
   // background-color: var(--aubergine);
-  // background-color: var(--deer);
+  background-color: var(--deer); // Medium Vermilion color palette
   // background-color: var(--quincy);
   display: flex;
   padding: 30px;
@@ -85,7 +85,7 @@ footer {
     margin: 0;
 
     a {
-      color: var(--dark-gray);
+      color: var(--charcoal);
       text-decoration: none;
       transition: color 0.2s;
       padding: 2px;
@@ -109,7 +109,7 @@ footer {
 
         &:hover,
         &:focus {
-          color: var(--dark-gray);
+          color: var(--charcoal);
         }
       }
     }

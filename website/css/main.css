@@ -41,6 +41,7 @@
 }
 
 body {
+  background-color: var(--tumbleweed);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   height: 100%;
@@ -66,8 +67,8 @@ body {
 .topics {
   width: 350px;
   padding: 15px;
-  background-color: var(--);
-  border-radius: 5px;
+  background-color: var(--feldspar);
+  border-radius: 10px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 .categories a,
@@ -79,7 +80,7 @@ body {
 .categories a:hover, .categories a:focus,
 .topics a:hover,
 .topics a:focus {
-  color: var(--dark-gray);
+  color: var(--charcoal);
 }
 
 .subheading {
@@ -90,13 +91,13 @@ body {
   width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
-  border-bottom: 2px solid var(--);
+  border-bottom: 2px solid var(--dark-charcoal);
   border-radius: 3px;
 }
 
 .category-active,
 .topic-active {
-  background-color: var(--);
+  background-color: var(--beige);
   padding: 5px;
   margin-bottom: 5px;
   border-radius: 5px;
@@ -107,14 +108,14 @@ body {
 .topic {
   padding: 5px;
   margin-bottom: 5px;
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.2s;
 }
 .category:hover, .category:focus,
 .topic:hover,
 .topic:focus {
-  background-color: var(--);
+  background-color: var(--beige);
 }
 
 @media (min-width: 320px) and (max-width: 480px), (min-width: 481px) and (max-width: 767px) {
