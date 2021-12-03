@@ -28,10 +28,6 @@ For licenses we use, see https://github.com/CMihai99/medita/tree/main/LICENSES.
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
 
-    <!-- Components -->
-    <script src="/website/components/navbar.js"></script>
-    <script src="/website/components/footer.js"></script>
-
     <!-- CSS -->
     <link rel="stylesheet" href="/website/css/main.css">
     <link rel="stylesheet" href="/website/css/navbar.css">
@@ -55,7 +51,63 @@ For licenses we use, see https://github.com/CMihai99/medita/tree/main/LICENSES.
   </head>
 
   <body>
-    <navbar-component></navbar-component>
+    <nav class="navbar">
+      <div class="navbar-header">
+        <a href="/website/html/index.html" title="Home">
+          <img src="/resources/icon/icon.png" class="nav-icon">
+        </a>
+      </div>
+
+      <div class="nav navbar-nav">
+        <li>
+          <div class="nav-item">
+            <a href="/website/html/commands/index.html" title="Commands">
+              <img src="/website/resources/commands.svg">
+              Commands
+            </a>
+          </div>
+        </li>
+
+        <li>
+          <div class="nav-item">
+            <a href="/website/html/docs/index.html" title="Documentation">
+              <img src="/website/resources/documentation.svg">
+              Documentation
+            </a>
+          </div>
+        </li>
+
+        <li>
+          <div class="nav-item">
+            <a href="/website/html/community.html" title="Community Server" target="_blank">
+              <img src="/website/resources/discord.svg">
+              Community Server
+            </a>
+          </div>
+        </li>
+
+        <li>
+          <div class="nav-item">
+            <a href="/website/html/development.html" title="Development Server" target="_blank">
+              <img src="/website/resources/discord.svg">
+              Development Server
+            </a>
+          </div>
+        </li>
+      </div>
+
+      <div class="rightside-navbar">
+        <div class="nav navbar-nav">
+          <li>
+            <div class="nav-item">
+              <a href="https://github.com/CMihai99/medita" title="Github" target="_blank">
+                <img src="/website/resources/github.svg">
+              </a>
+            </div>
+          </li>
+        </div>
+      </div>
+    </nav>
 
     <div class="page-border">
       <div class="section-divider"></div>
@@ -89,7 +141,54 @@ For licenses we use, see https://github.com/CMihai99/medita/tree/main/LICENSES.
       <div class="section-spacer"></div>
     </div>
 
-    <footer-component></footer-component>
+    <!-- Footer -->
+
+    <footer>
+      <div class="title-section">
+        <h2>Medita</h2>
+        <p>Description</p>
+        <p>© 2021 <a href="/website/html/trademark.html" title="Medita Limited">Medita Limited</a></p>
+      </div>
+
+      <div class="section">
+        <h3>Medita</h3>
+
+        <ul>
+          <li>
+            <a href="/website/html/contact.html" title="Contact">Contact</a>
+          </li>
+          <li>
+            <a href="/website/html/about.html" title="About">About</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h3>Resources</h3>
+
+        <ul>
+          <li>
+            <a href="/website/html/commands/index.html" title="Commands">Commands</a>
+          </li>
+          <li>
+            <a href="/website/html/docs/index.html" title="Documentation">Documentation</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h3>Legal</h3>
+
+        <ul>
+          <li>
+            <a href="/website/html/docs/legal/privacy.html" title="Privacy Policy">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="/website/html/docs/legal/terms.html" title="Terms of Use">Terms of Use</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 
 </html>
