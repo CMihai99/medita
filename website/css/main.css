@@ -118,6 +118,45 @@ body {
   background-color: var(--beige);
 }
 
+.commands,
+.documents {
+  margin: -182.4px 0 0 350px;
+  padding: 0 15px 0 15px;
+  cursor: pointer;
+}
+.commands a,
+.documents a {
+  color: var(--dark-charcoal);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.commands a:hover, .commands a:focus,
+.documents a:hover,
+.documents a:focus {
+  color: var(--charcoal);
+}
+
+.command {
+  padding: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  background-color: var(--feldspar);
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.command span {
+  color: var(--charcoal);
+  font-weight: normal;
+}
+
+.document {
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: var(--feldspar);
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
 @media (min-width: 320px) and (max-width: 480px), (min-width: 481px) and (max-width: 767px) {
   /* foo */
 }

@@ -137,6 +137,46 @@ body {
   }
 }
 
+.commands,
+.documents {
+  margin: -182.4px 0 0 350px; // top, right, bottom, left
+  padding: 0 15px 0 15px; // top, right, bottom, left
+  cursor: pointer;
+
+  a {
+    color: var(--dark-charcoal);
+    text-decoration: none;
+    transition: color 0.2s;
+
+    &:hover,
+    &:focus {
+      color: var(--charcoal);
+    }
+  }
+}
+
+.command {
+  padding: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  background-color: var(--feldspar);
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+
+  span {
+    color: var(--charcoal);
+    font-weight: normal;
+  }
+}
+
+.document {
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: var(--feldspar);
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+
 // Phones
 @media (min-width: 320px) and (max-width: 480px), (min-width: 481px) and (max-width: 767px) {
   /* foo */
