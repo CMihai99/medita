@@ -39,7 +39,7 @@ class navbar extends HTMLElement {
 
         <li>
           <div class="nav-item">
-            <a href="/website/html/community.html" title="Community Server" target="_blank">
+            <a href="" title="Community Server" target="_blank">
               <img src="/website/resources/discord.svg">
               Community Server
             </a>
@@ -48,7 +48,7 @@ class navbar extends HTMLElement {
 
         <li>
           <div class="nav-item">
-            <a href="/website/html/development.html" title="Development Server" target="_blank">
+            <a href="" title="Development Server" target="_blank">
               <img src="/website/resources/discord.svg">
               Development Server
             </a>
