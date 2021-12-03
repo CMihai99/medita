@@ -14,7 +14,7 @@ class navbar extends HTMLElement {
     <nav class="navbar">
       <div class="navbar-header">
         <a href="index.html" title="Home">
-          <img src="/resources/icon/icon_512x512.png" class="nav-icon">
+          <img src="/resources/icon/icon.png" class="nav-icon">
         </a>
       </div>
 
