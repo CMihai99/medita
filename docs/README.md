@@ -43,6 +43,9 @@ The documentation for Medita is divided into the following sections:
         is a list of all the releases that Medita has gone through.
         Each stable Medita release comes out every 4-6 months.
 
+    -   [macOS.md](https://github.com/CMihai99/medita/blob/main/docs/how-to/building/macOS.md)
+        is an overview on how to build Medita for macOS.
+
     -   [Refactoring.md](https://github.com/CMihai99/medita/blob/main/docs/how-to/building/Refactoring.md)
         describes how refactorings work and how they can be tested.
 
@@ -51,12 +54,12 @@ The documentation for Medita is divided into the following sections:
 
     -   [WindowsCrossBuild.md](https://github.com/CMihai99/medita/blob/main/docs/how-to/building/WindowsCrossCBuild.md)
         describes how to cross build Medita for Windows
-        on a non-Windows host OS.
-
-    -   [macOS.md](https://github.com/CMihai99/medita/blob/main/docs/how-to/building/macOS.md)
-        is an overview on how to build Medita for macOS. -->
+        on a non-Windows host OS. -->
 
 -   Maintaining:
+
+    <!-- -   [ErrorHandling.md](https://github.com/CMihai99/medita/blob/main/docs/how-to/maintaining/ErrorHandling.md)
+    describes how to handle errors and spelling mistakes throughout Medita. -->
 
     <!-- -   [ManagementStyle.md](https://github.com/CMihai99/medita/blob/main/docs/how-to/maintaining/ManagementStyle.md)
         describes the preferred (or made up, depending on who you ask)
@@ -68,9 +71,17 @@ The documentation for Medita is divided into the following sections:
         merge them, because the code is not exactly the same in your tree
         and the submitters'.
 
+    -   [PullRequests.md](https://github.com/CMihai99/medita/blob/main/docs/how-to/maintaining/PullRequests.md)
+    describes how to submit your pull requests. This is
+    the place to start if you're new to the project!
+
     -   [RebasingAndMerging.md](https://github.com/CMihai99/medita/blob/main/docs/how-to/maintaining/RebasingAndMerging.md)
         describes how to rebase (changing the history of a series of commits
         within a repository) and merge branches for easier maintaining.
+
+    -   [SecurityBugs.md](https://github.com/CMihai99/medita/blob/main/docs/how-to/maintaining/SecurityBugs.md)
+    describes how to report security bugs so that it
+    can be fixed and disclosed as quickly as possible.
 
     <!-- -   [SubmittingChecklist.md](https://github.com/CMihai99/medita/blob/main/docs/how-to/maintaining/SubmittingChecklist.md)
         describes basic things that developers should do if they want
@@ -82,29 +93,14 @@ The documentation for Medita is divided into the following sections:
         git to prepare your patches. If you're unfamiliar with git, you should
         learn using it, since it will make developing much easier.
 
-    -   [PullRequests.md](https://github.com/CMihai99/medita/blob/main/docs/how-to/maintaining/PullRequests.md)
-    describes how to submit your pull requests. This is
-    the place to start if you're new to the project!
-
-    <!-- -   [ErrorHandling.md](https://github.com/CMihai99/medita/blob/main/docs/how-to/maintaining/ErrorHandling.md)
-    describes how to handle errors and spelling mistakes throughout Medita. -->
-
-    -   [SecurityBugs.md](https://github.com/CMihai99/medita/blob/main/docs/how-to/maintaining/SecurityBugs.md)
-    describes how to report security bugs so that it
-    can be fixed and disclosed as quickly as possible.
-
 ## Recommended Practices
-
-<!-- -   [OptimizationTips.md](https://github.com/CMihai99/medita/blob/main/docs/practices/OptimizationTips.md)
-    provides guidelines for writing high-performance code.
-
--   [TextFormatting.md](https://github.com/CMihai99/medita/blob/main/docs/practices/TextFormatting.md)
-    describes how to format text, ranging from documentation,
-    all the way to functioning code. -->
 
 -   [CommitMessageTemplate.md](https://github.com/CMihai99/medita/blob/main/docs/practices/CommitMessageTemplate.md)
     specifies the perfect commit description you will want to use to help
     maintainers understand the patch you fixed or feature you added.
+
+<!-- -   [OptimizationTips.md](https://github.com/CMihai99/medita/blob/main/docs/practices/OptimizationTips.md)
+    provides guidelines for writing high-performance code. -->
 
 -   [PullRequestGuidelines.md](https://github.com/CMihai99/medita/blob/main/docs/practices/PullRequestGuidelines.md)
     specifies how to describe your pull request, requesting review,
@@ -112,6 +108,10 @@ The documentation for Medita is divided into the following sections:
 
 -   [PullRequestTemplate.md](https://github.com/CMihai99/medita/blob/main/docs/practices/PullRequestTemplate.md)
     contains a pull request template for easier contributions.
+
+<!-- -   [TextFormatting.md](https://github.com/CMihai99/medita/blob/main/docs/practices/TextFormatting.md)
+    describes how to format text, ranging from documentation,
+    all the way to functioning code. -->
 
 <!-- ## Reference Guides
 
