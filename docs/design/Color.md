@@ -9,7 +9,7 @@ For licenses we use, see https://github.com/CMihai99/medita/tree/main/LICENSES.
 
 # Color
 
-Color is a major part of Medita's brand. We've taken care to select a color pallete
+Color is a major part of Medita's brand. We've taken care to select a color scheme
 which promotes legibility and accessibility.
 
 ## Primary palette
