@@ -30,7 +30,7 @@ class navbar extends HTMLElement {
 
         <li>
           <div class="nav-item">
-            <a href="/website/html/resources/docs.html" title="Documentation">
+            <a href="/website/html/docs/index.html" title="Documentation">
               <img src="/website/resources/documentation.svg">
               Documentation
             </a>
