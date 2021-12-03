@@ -58,7 +58,7 @@ class footer extends HTMLElement {
             <a href="/website/html/legal/privacy.html" title="Privacy Policy">Privacy Policy</a>
           </li>
           <li>
-            <a href="/website/html/legal/terms.html" title="Terms of Service">Terms of Service</a>
+            <a href="/website/html/legal/terms.html" title="Terms of Use">Terms of Use</a>
           </li>
         </ul>
       </div>
