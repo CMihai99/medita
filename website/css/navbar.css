@@ -35,7 +35,6 @@
 }
 
 nav.navbar {
-  background-color: var(--);
   height: 100px;
   width: 100%;
   border: 0;
@@ -46,7 +45,6 @@ nav.navbar {
 .nav-icon {
   width: 50px;
   height: 50px;
-  border-radius: 10px;
 }
 
 .nav-item {
@@ -54,7 +52,7 @@ nav.navbar {
   margin: 13px 0 0 40px;
 }
 .nav-item a {
-  color: var(--);
+  color: var(--aubergine);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 17px;
@@ -63,15 +61,16 @@ nav.navbar {
   padding: 10px;
 }
 .nav-item a:hover, .nav-item a:focus {
-  color: var(--);
+  color: var(--ripe-aubergine);
 }
 .nav-item a img {
-  filter: invert(62%) sepia(44%) saturate(0%) hue-rotate(146deg) brightness(102%) contrast(84%);
+  filter: invert(39%) sepia(7%) saturate(789%) hue-rotate(229deg) brightness(87%) contrast(84%);
+  transition: filter 0.2s;
   margin-bottom: 6px;
   height: 17px;
 }
 .nav-item a img:hover, .nav-item a img:focus {
-  filter: invert(89%) sepia(0%) saturate(43%) hue-rotate(205deg) brightness(104%) contrast(70%);
+  filter: invert(9%) sepia(4%) saturate(5163%) hue-rotate(229deg) brightness(97%) contrast(82%);
 }
 
 .rightside-navbar {

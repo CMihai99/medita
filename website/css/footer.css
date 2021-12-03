@@ -35,12 +35,10 @@
 }
 
 footer {
-  background-color: var(--);
   display: flex;
   padding: 30px;
   height: 200px;
   bottom: 0;
-  position: absolute;
   width: 100%;
 }
 
@@ -50,6 +48,7 @@ footer {
   width: 175px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  color: var(--dark-charcoal);
 }
 .section h3,
 .title-section h3 {
@@ -69,7 +68,7 @@ footer {
 }
 .section p a,
 .title-section p a {
-  color: var(--);
+  color: var(--dark-gray);
   text-decoration: none;
   transition: color 0.2s;
   padding: 2px;
@@ -82,11 +81,10 @@ footer {
 .section ul li,
 .title-section ul li {
   list-style-type: none;
-  color: var(--);
 }
 .section ul li a,
 .title-section ul li a {
-  color: var(--);
+  color: var(--dark-charcoal);
   text-decoration: none;
   font-size: 14px;
   transition: color 0.2s;
@@ -96,7 +94,7 @@ footer {
 .section ul li a:hover, .section ul li a:focus,
 .title-section ul li a:hover,
 .title-section ul li a:focus {
-  color: var(--);
+  color: var(--dark-gray);
 }
 
 .title-section {

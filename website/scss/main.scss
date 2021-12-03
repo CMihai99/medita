@@ -6,6 +6,9 @@
 // ===-----------------------------------------------------------------------------------===
 
 :root {
+  overflow-x: hidden;
+  height: 100%;
+
   // color palette - primary
   --puce-red: #63322F;
   --medium-vermilion: #E0723C;
@@ -46,21 +49,37 @@
   --warning: #F1C40F;
   --danger: #FF6A5C;
   --success: #2DCC70;
+}
 
+* {
   box-sizing: border-box;
 }
 
 body {
-  background-color: var(--);
-  color: var(--);
+  // background-color: var(--feldspar);
+  // background-color: var(--light-coral);
+  // background-color: var(--deep-amethyst);
+  // background-color: var(--tumbleweed);
+  // background-color: var(--cinereous);
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  overflow-x: hidden;
+  height: 100%;
 }
 
 .page-border {
-  padding: 30px 15px 0 15px; // top, right, bottom, left
+  padding: 15px 15px 0 15px; // top, right, bottom, left
   margin: 0 125px; // top-bottom, left-right
+  height: 100%;
+}
+
+.section-spacer {
+  margin: 15px 0;
+  padding: 10px 0;
+  height: 75px;
+}
+
+.section-divider {
+  height: 25px;
 }
 
 .categories,
@@ -72,13 +91,13 @@ body {
   box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
 
    a {
-    color: var(--);
+    color: var(--dark-charcoal);
     text-decoration: none;
     transition: color 0.2s;
 
     &:hover,
     &:focus {
-      color: var(--);
+      color: var(--dark-gray);
     }
    }
 }

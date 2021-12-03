@@ -49,12 +49,15 @@
 }
 
 footer {
-  background-color: var(--);
+  // background-color: var(--beige);
+  // background-color: var(--dark-rose);
+  // background-color: var(--aubergine);
+  // background-color: var(--deer);
+  // background-color: var(--quincy);
   display: flex;
   padding: 30px;
   height: 200px;
   bottom: 0;
-  position: absolute;
   width: 100%;
 }
 
@@ -64,6 +67,7 @@ footer {
   width: 175px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  color: var(--dark-charcoal);
 
   h3 {
     font-size: 16px;
@@ -81,7 +85,7 @@ footer {
     margin: 0;
 
     a {
-      color: var(--);
+      color: var(--dark-gray);
       text-decoration: none;
       transition: color 0.2s;
       padding: 2px;
@@ -94,10 +98,9 @@ footer {
 
     li {
       list-style-type: none;
-      color: var(--);
 
       a {
-        color: var(--);
+        color: var(--dark-charcoal);
         text-decoration: none;
         font-size: 14px;
         transition: color 0.2s;
@@ -106,7 +109,7 @@ footer {
 
         &:hover,
         &:focus {
-          color: var(--);
+          color: var(--dark-gray);
         }
       }
     }
