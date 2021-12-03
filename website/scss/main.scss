@@ -63,7 +63,8 @@ body {
   margin: 0 125px; // top-bottom, left-right
 }
 
-.categories {
+.categories,
+.topics {
   width: 350px;
   padding: 15px;
   background-color: var(--);
@@ -94,7 +95,8 @@ body {
   border-radius: 3px;
 }
 
-.category-active {
+.category-active,
+.topic-active {
   background-color: var(--);
   padding: 5px;
   margin-bottom: 5px;
@@ -102,10 +104,11 @@ body {
   cursor: pointer;
 }
 
-.category {
+.category,
+.topic {
   padding: 5px;
   margin-bottom: 5px;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.2s;
 

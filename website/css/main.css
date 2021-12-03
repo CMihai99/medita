@@ -48,19 +48,23 @@ body {
   margin: 0 125px;
 }
 
-.categories {
+.categories,
+.topics {
   width: 350px;
   padding: 15px;
   background-color: var(--);
   border-radius: 5px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
-.categories a {
+.categories a,
+.topics a {
   color: var(--);
   text-decoration: none;
   transition: color 0.2s;
 }
-.categories a:hover, .categories a:focus {
+.categories a:hover, .categories a:focus,
+.topics a:hover,
+.topics a:focus {
   color: var(--);
 }
 
@@ -76,7 +80,8 @@ body {
   border-radius: 3px;
 }
 
-.category-active {
+.category-active,
+.topic-active {
   background-color: var(--);
   padding: 5px;
   margin-bottom: 5px;
@@ -84,14 +89,17 @@ body {
   cursor: pointer;
 }
 
-.category {
+.category,
+.topic {
   padding: 5px;
   margin-bottom: 5px;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.2s;
 }
-.category:hover, .category:focus {
+.category:hover, .category:focus,
+.topic:hover,
+.topic:focus {
   background-color: var(--);
 }
 
