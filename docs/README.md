@@ -90,8 +90,7 @@ The documentation for Medita is divided into the following sections:
     -   [SubmittingPatches.md](https://github.com/CMihai99/medita/blob/main/docs/how-to/maintaining/SubmittingPatches.md)
         contains a large number of suggestions in a relatively terse format
         about getting your code submitted. It also assumes that you're using
-        git to prepare your patches. If you're unfamiliar with git, you should
-        learn using it, since it will make developing much easier.
+        git to prepare your patches.
 
 ## Recommended Practices
 
@@ -140,10 +139,10 @@ The documentation for Medita is divided into the following sections:
         specifies our color schemes.
 
     -   [Icon.md](https://github.com/CMihai99/medita/blob/main/docs/design/Icon.md)
-        specifies our branding icons.
+        specifies our branding.
 
     -   [Logo.md](https://github.com/CMihai99/medita/blob/main/docsdesign/Logo.md)
-        specifies our branding logos.
+        specifies our branding.
 
     -   [Typography.md](https://github.com/CMihai99/medita/blob/main/docs/design/Typography.md)
         specifies our typography selections.
